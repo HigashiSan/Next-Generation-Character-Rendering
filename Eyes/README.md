@@ -12,7 +12,8 @@ First is to render the eye ball.I want eye iris and pupil both can be scaled eas
 https://user-images.githubusercontent.com/56297955/178552361-02c1bf9e-fd2a-4515-943b-edfcece23ea8.mp4
 
 
-https://user-images.githubusercontent.com/56297955/178552742-27c99b99-1769-4f86-a8f6-e09ccd03fb45.mp4
+I also used real physics formulas to simulate eye refraction.And can adjust the distance between the pupil and cornea.
 
 
-I also used real physics formulas to simulate eye refraction
+https://user-images.githubusercontent.com/56297955/178553827-42efb41d-6e3d-4489-b139-b5beaffa46fe.mp4
+
