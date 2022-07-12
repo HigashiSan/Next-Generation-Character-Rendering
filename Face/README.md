@@ -2,7 +2,7 @@
 
 #### Main rendering methods
 
-How to calculate diffuse : normal diffuse + SSS + amnient
+How to calculate diffuse : normal diffuse + SSS + ambient
 
 How to calculate specular : Dual Lobe Specular / Kelemen specular
 
