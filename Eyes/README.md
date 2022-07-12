@@ -14,6 +14,9 @@ https://user-images.githubusercontent.com/56297955/178552361-02c1bf9e-fd2a-4515-
 
 I also used real physics formulas to simulate eye refraction.And can adjust the distance between the pupil and cornea.
 
-
+Here you can see the effect with or without the refraction:
 https://user-images.githubusercontent.com/56297955/178553827-42efb41d-6e3d-4489-b139-b5beaffa46fe.mp4
+
+
+https://user-images.githubusercontent.com/56297955/178554498-ee26042b-8f3d-4e2e-a4dd-1e0a4179e19e.mp4
 
