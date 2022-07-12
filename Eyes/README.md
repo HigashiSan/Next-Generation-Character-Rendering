@@ -20,3 +20,4 @@ https://user-images.githubusercontent.com/56297955/178555296-bc5212fc-5bf2-4286-
 
 https://user-images.githubusercontent.com/56297955/178555332-1f96b1b1-bee6-456a-9bd3-7156971f79f1.mp4
 
+For the light calculation, I used basic PBR lighting mode, two texture  used to control the roughness of the iris area and the white area respectively.
