@@ -30,3 +30,14 @@ GGX Specular or sample Beckmann tetxture to get specular.GGX is normal and I onl
 ![image](https://user-images.githubusercontent.com/56297955/178639339-e9ea6492-7db5-474e-83c9-6a14e10cafb5.png)
 
 And other highlights different calculations, the skin is a multilayer structure, the bottom of the oil layer also highlights for contribution, so now the common technique is to do two highlights calculation, and the use of different roughness map, main highlight contribution using high frequency calculation, the secondary highlights contribution using low frequency calculation, and then according to the proportion of additive, According to Next Studio's technique, the visual performance of the shared three - and four-layer and two-layer highlights is almost indistinguishable.
+
+
+![Mat](https://user-images.githubusercontent.com/56297955/178640035-8f77f2eb-4ec4-4897-99bb-35ab0cfcd272.png)
+
+
+https://user-images.githubusercontent.com/56297955/178640384-8795721d-d46e-4ad6-bf3e-b3f17a184a23.mp4
+
+
+#### SSS
+
+To calculate SSS, I tried Pre-integration algrithmn, and I think it is already good.It is a look-up table algrithmn, in this table, the results of secondary surface scattering are stored in a table, and the secondary surface scattering values of colored points are checked through NdotL and curvature of the model.
