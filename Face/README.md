@@ -22,7 +22,11 @@ GGX Specular or sample Beckmann tetxture to get specular.GGX is normal and I onl
 ![image](https://user-images.githubusercontent.com/56297955/178638997-84185612-4f2b-4e9d-8f9f-a779fbb1335b.png)
 
 
-![image](https://user-images.githubusercontent.com/56297955/178638948-3dc9348d-77b8-47e7-acca-b3614e598d3b.png)
-
-
 ![Face5](https://user-images.githubusercontent.com/56297955/178561192-cf5c5f4a-83a0-4ce1-8301-ac0928424416.png)
+
+
+#### Specular
+
+![image](https://user-images.githubusercontent.com/56297955/178639339-e9ea6492-7db5-474e-83c9-6a14e10cafb5.png)
+
+And other highlights different calculations, the skin is a multilayer structure, the bottom of the oil layer also highlights for contribution, so now the common technique is to do two highlights calculation, and the use of different roughness map, main highlight contribution using high frequency calculation, the secondary highlights contribution using low frequency calculation, and then according to the proportion of additive, According to Next Studio's technique, the visual performance of the shared three - and four-layer and two-layer highlights is almost indistinguishable.
