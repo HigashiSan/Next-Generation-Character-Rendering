@@ -41,3 +41,7 @@ https://user-images.githubusercontent.com/56297955/178640384-8795721d-d46e-4ad6-
 #### SSS
 
 To calculate SSS, I tried Pre-integration algrithmn, and I think it is already good.It is a look-up table algrithmn, in this table, the results of secondary surface scattering are stored in a table, and the secondary surface scattering values of colored points are checked through NdotL and curvature of the model.
+
+
+https://user-images.githubusercontent.com/56297955/179366675-da1d3973-8096-4b07-a386-f35e0261a74f.mp4
+
