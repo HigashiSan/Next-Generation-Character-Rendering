@@ -1,7 +1,7 @@
 # Next-Generation-Character-Rendering
 My implementation for character rendering in unity URP, including eyes、face and hair.I will not upload any texture or obj resources, only describe the algrithm I used.
 
-For face I will try to render with 4s and Pre-integration algrithmn.However, for pore-level details of the skin, this surface scattering is not the decisive factor
+For face I will try to render with 4s and Pre-integration algrithmn.However, for pore-level details of the skin, this surface scattering is not the decisive factor, the key is diffuse illumination model.
 
 
 ![whole3](https://user-images.githubusercontent.com/56297955/179361834-bb214a9a-5adf-4dc7-9cbc-025b0a5aa565.png)
