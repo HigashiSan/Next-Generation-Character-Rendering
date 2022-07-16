@@ -4,6 +4,9 @@ My implementation for character rendering in unity URP, including eyes、face an
 For face I will try to render with 4s and Pre-integration algrithmn.
 
 
+![whole5](https://user-images.githubusercontent.com/56297955/179361365-bc3a8ff7-efbd-4d45-956d-958aecea9cf5.png)
+
+
 ![whole1](https://user-images.githubusercontent.com/56297955/178422526-3111ee42-1f0e-4267-aed6-750287306be3.png)
 
 
