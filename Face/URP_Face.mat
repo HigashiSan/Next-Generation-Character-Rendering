@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: URP_Face
+  m_Shader: {fileID: 4800000, guid: 2a2a6dcfea74213419b9fe20fa348a7f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Ao:
+        m_Texture: {fileID: 2800000, guid: 72bf2305b9f5f9e4c948b4f1903ac4e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BentNormalTex:
+        m_Texture: {fileID: 2800000, guid: 0d87591549145264da05d1f8377d6ff6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalTex:
+        m_Texture: {fileID: 2800000, guid: 9e43931fe6f0a8a4aaf8634429c4e193, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _KelemenLUT:
+        m_Texture: {fileID: 2800000, guid: badb7c0fe39aed14db9fcbe0c53006fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainColor:
+        m_Texture: {fileID: 2800000, guid: d9332331ee7ed064f8cf90675e821460, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainNormalTex:
+        m_Texture: {fileID: 2800000, guid: 523988a41516e3f448fc2416b9b0b5cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTex:
+        m_Texture: {fileID: 2800000, guid: 9e43931fe6f0a8a4aaf8634429c4e193, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSTex:
+        m_Texture: {fileID: 2800000, guid: f2e31d9925d84b243a46dadfc5da09ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMask:
+        m_Texture: {fileID: 2800000, guid: 90ce29925970d6a429332013d8654381, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularOcclusion:
+        m_Texture: {fileID: 2800000, guid: 5ca4ad488105b7b43b4967d3e8ca8bce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessTex:
+        m_Texture: {fileID: 2800000, guid: 90ce29925970d6a429332013d8654381, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CurveIntensity: 0.0001
+    - _Distortion: 1
+    - _Fresnel: 0.049
+    - _LodeA: 0.266
+    - _LodeB: 0.231
+    - _MixValue: 1
+    - _OcculusionStrength: 1
+    - _ScatteringPow: 1
+    - _ScatteringScale: 1
+    - _ShowCurve: 0
+    - _ShowSSS: 0
+    - _ShowSpecular: 0
+    - _Smooth: 0.5
+    - _SpecularStrength: 0
+    - _test: 0.71
+    m_Colors:
+    - _ScatteringColor: {r: 1, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
