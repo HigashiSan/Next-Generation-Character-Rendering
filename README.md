@@ -18,6 +18,9 @@ For eyes, I will take a multi-layer eye structures method to render for a more r
 ![Eye7](https://user-images.githubusercontent.com/56297955/178422245-31f2994c-9ce9-4656-8cbd-191631334310.png)
 
 
+![泪腺](https://user-images.githubusercontent.com/56297955/180047962-629c084a-0d99-44a3-831c-b8c29c560a82.png)
+
+
 And for hair, it is actually the most difficult one, I think Kajia's anisotropic algorithm has been enough to achieve a good results.But if you want more details, the hair model have to be more complicated, then the alpha blend will cause a serious problem: transparency sorting.So far, OIT has been a good solution.
 
 Due to the hair rendered as transparent object, you can see the head through the hair, and that's strange.So I make another base hair material as the second material, which is rendered as opaque object. 
