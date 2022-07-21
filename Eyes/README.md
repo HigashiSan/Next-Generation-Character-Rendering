@@ -6,8 +6,17 @@ But I rarely see other articles that explain in detail how to do these layers of
 
 I use Maya to make the eye occlusion and eye water model, it is relatively easy.
 
-First is to render the eye ball.I want eye iris and pupil both can be scaled easily, and can control cloudy color of the iris.
+### Eye ball
 
+First is to render the eye ball.I want eye iris and pupil both can be scaled easily, and can control cloudy color of the iris.The key to do this is to separate the iris、sclear and pupil， then to calculate the UV scale.
+
+I use this function to scale the iris and sclear by center:
+
+![image](https://user-images.githubusercontent.com/56297955/180127714-28f0e525-d602-4aa9-acc0-5017cc034af2.png)
+
+Then calculate a mask to separate the iris and sclear by limbus:
+
+![image](https://user-images.githubusercontent.com/56297955/180141242-d3ca8430-e78d-424d-a6ca-9a5d9ec36b35.png)
 
 https://user-images.githubusercontent.com/56297955/178552361-02c1bf9e-fd2a-4515-943b-edfcece23ea8.mp4
 
