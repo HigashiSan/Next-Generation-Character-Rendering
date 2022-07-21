@@ -21,7 +21,10 @@ Then calculate a mask to separate the iris and sclear by limbus, prevent the tra
 
 https://user-images.githubusercontent.com/56297955/178552361-02c1bf9e-fd2a-4515-943b-edfcece23ea8.mp4
 
+
 Limbus:
+
+
 https://user-images.githubusercontent.com/56297955/178637648-52c0b168-bf1c-464a-acd3-d6091346f0ef.mp4
 
 
