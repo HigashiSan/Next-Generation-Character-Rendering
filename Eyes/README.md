@@ -14,11 +14,15 @@ I use this function to scale the iris and sclear by center:
 
 ![image](https://user-images.githubusercontent.com/56297955/180127714-28f0e525-d602-4aa9-acc0-5017cc034af2.png)
 
-Then calculate a mask to separate the iris and sclear by limbus:
+Then calculate a mask to separate the iris and sclear by limbus, prevent the transition between iris and sclear is too stiff.
 
 ![image](https://user-images.githubusercontent.com/56297955/180141242-d3ca8430-e78d-424d-a6ca-9a5d9ec36b35.png)
 
+
 https://user-images.githubusercontent.com/56297955/178552361-02c1bf9e-fd2a-4515-943b-edfcece23ea8.mp4
+
+Limbus:
+https://user-images.githubusercontent.com/56297955/178637648-52c0b168-bf1c-464a-acd3-d6091346f0ef.mp4
 
 
 I also used real physics formulas to simulate eye refraction.And can adjust the distance between the pupil and cornea.
@@ -28,14 +32,6 @@ Here you can see the effect with or without the refraction
 https://user-images.githubusercontent.com/56297955/178555296-bc5212fc-5bf2-4286-8d98-e7285758cf79.mp4
 
 https://user-images.githubusercontent.com/56297955/178555332-1f96b1b1-bee6-456a-9bd3-7156971f79f1.mp4
-
-
-For the limbus, I do a lerp, prevent the transition between pupil and white of eye is too stiff.
-
-
-
-https://user-images.githubusercontent.com/56297955/178637648-52c0b168-bf1c-464a-acd3-d6091346f0ef.mp4
-
 
 
 For the light calculation, I used basic PBR lighting mode, two texture  used to control the roughness of the iris area and the white area respectively.
